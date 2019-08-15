@@ -8,6 +8,19 @@ h1.heading-1 {
   text-align: center;
 }
 
+h1 span.heading-text-4 {
+  color: #0b750a;
+}
+
+h1 span.heading-text-1 {
+  color: #0ac8c8;
+}
+
+h1.heading-3 {
+  background-color: #3d3d3d;
+  text-align: center;
+}
+
 p.paragraph span.paragraph-text-1 {
   color: #2a617d;
 }
@@ -72,6 +85,10 @@ a.link-text.nav-button:hover {
   display:         flex;
 }
 
+.container.nav-wrapper {
+  background-color: rgba(32, 18, 18, .81);
+}
+
 div.responsive-picture {
   max-width: none;
 }
@@ -91,6 +108,15 @@ div.responsive-picture {
   h1.heading-2 {
     color: #2a617d;
     text-align: center;
+  }
+
+  h1.heading-3 {
+    background-color: #3d3d3d;
+    text-align: center;
+  }
+
+  h1 span.heading-text-5 {
+    color: #0ac8c8;
   }
 
   p.paragraph span.paragraph-text-1 {
@@ -164,9 +190,21 @@ div.responsive-picture {
             justify-content: space-between;
   }
 
+  .container.nav-wrapper {
+    background-color: #3d3d3d;
+  }
+
   div.responsive-video.video-platform-4 {
     min-width: 10auto;
     min-height: 50px;
+  }
+}
+
+@media screen and (min-width: 39.875rem) {
+  /* Text Elements */
+
+  h1.heading-3 {
+    background-color: transparent;
   }
 }
 
@@ -379,6 +417,10 @@ div.responsive-picture {
     text-align: center;
   }
 
+  h1 span.heading-text-3 {
+    font-size: 2.5625rem;
+  }
+
   p.paragraph span.paragraph-text-1 {
     color: #2a617d;
   }
@@ -398,6 +440,7 @@ div.responsive-picture {
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
+    background-color: #3d3d3d;
   }
 
   .container.hero-section {
