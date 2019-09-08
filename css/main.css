@@ -21,6 +21,22 @@ h1.heading-3 {
   text-align: center;
 }
 
+h1 span.heading-text-6 {
+  color: #2a617d;
+}
+
+h1 span.heading-text-7 {
+  color: #2a617d;
+}
+
+h1 span.heading-text-8 {
+  color: #2a617d;
+}
+
+h1.heading-2 {
+  text-align: center;
+}
+
 p.paragraph span.paragraph-text-1 {
   color: #2a617d;
 }
@@ -328,6 +344,16 @@ div.responsive-picture {
 }
 
 @media screen and (min-width: 52.75rem) {
+  /* Text Elements */
+
+  h1 span.heading-text-2 {
+    font-size: 3rem;
+  }
+
+  h1.heading-2 {
+    text-align: center;
+  }
+
   /* Layout Elements */
 
   .container.surrounding-padding-col-1 {
